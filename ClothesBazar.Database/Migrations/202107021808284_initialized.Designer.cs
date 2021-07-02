@@ -7,13 +7,13 @@ namespace ClothesBazar.Database.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class Create_Database_and_tables : IMigrationMetadata
+    public sealed partial class initialized : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Create_Database_and_tables));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initialized));
         
         string IMigrationMetadata.Id
         {
-            get { return "202107021518463_Create_Database_and_tables"; }
+            get { return "202107021808284_initialized"; }
         }
         
         string IMigrationMetadata.Source
